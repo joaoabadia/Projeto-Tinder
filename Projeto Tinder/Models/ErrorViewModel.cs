@@ -1,4 +1,4 @@
-namespace Projeto_Tinder.Models
+namespace matchlove.Models
 {
     public class ErrorViewModel
     {

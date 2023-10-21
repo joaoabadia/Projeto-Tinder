@@ -1,11 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Projeto_Tinder.Models
+namespace matchlove.Models
 {
-        
-        public class AppDbContext : DbContext
-        {
-        protected override void OnModelCreating(ModelBuilder builder)
+    public class AppDbContext : DbContext
+    {        
+            protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
         }
@@ -18,5 +17,7 @@ namespace Projeto_Tinder.Models
             public DbSet<Curtida> Curtida { get; set; }
             public DbSet<Match> Match { get; set; }
             public DbSet<Denuncia> Denuncia { get; set; }
+            public DbSet<Login> Login { get; set; }
         }
+
     }
