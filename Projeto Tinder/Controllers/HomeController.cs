@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Projeto_Tinder.Models;
+﻿using matchlove.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Projeto_Tinder.Controllers
+namespace matchlove.Controllers
 {
     public class HomeController : Controller
     {
